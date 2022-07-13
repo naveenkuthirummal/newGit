@@ -10,3 +10,5 @@ if($z > $y > $z)
 }else{
     echo “false”;
 }
+
+//tripple condtion
