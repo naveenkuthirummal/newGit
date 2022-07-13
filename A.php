@@ -48,7 +48,7 @@
 
 	$obj = new d();
 	$obj->mul(4,4);
-
+	unset(obj);
 
 class c 
 {
@@ -58,4 +58,8 @@ class c
 		return $sum = $a+$b;
 	}
 }
+
+$obj = new c();
+$obj->add(4,4);
+unset($obj);
 
