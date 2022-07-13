@@ -5,3 +5,5 @@ sort($x);
 print_r($x);
 echo "<br>2nd largest = ".$x[count($x)-2];
 echo "<br> 2nd smallesr =".$x[1];
+
+//need to write without any inbuild function
