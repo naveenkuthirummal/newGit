@@ -59,7 +59,14 @@ class c
 	}
 }
 
+
 $obj = new c();
 $obj->add(4,4);
 unset($obj);
+
+
+class f
+{
+	echo "Sample f code";
+}
 
