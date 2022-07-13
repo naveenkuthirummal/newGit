@@ -17,6 +17,11 @@
 			$this->name = $l;
 			$this->name = $a;
 		}
+		
+		public function __awake()
+		{
+			//need to write constructor;
+		}
 
 		public function __sleep()
 		{
@@ -30,3 +35,12 @@
 	$obj->set('nav','ku',28);
 	unset($obj);
 	echo $str;
+
+class c 
+{
+	//need to create a class conatains addition logic function
+	public function add(int $a,int $b)
+	{
+		return $sum = $a+$b;
+	}
+}
