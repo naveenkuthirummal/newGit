@@ -15,7 +15,13 @@ class Do_Operation
 		echo "Sample code";
 	}
 }
-
+class Write_Operation
+{
+	public function __construct()
+	{
+		echo "Sample write code";
+	}
+}
 function operation()
 {
   echo "sample oeration";
