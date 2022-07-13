@@ -26,4 +26,6 @@ function operation()
 {
   echo "sample oeration";
 }
+$obj = new Do_Operation();
+
 
