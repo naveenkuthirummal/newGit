@@ -11,4 +11,8 @@ if($z > $y > $z)
     echo “false”;
 }
 
+
 //tripple condtion
+
+//changes made by naveen
+
